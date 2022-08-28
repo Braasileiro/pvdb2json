@@ -282,7 +282,7 @@ namespace pvdb2json
 
         private static bool ValidatePerformerRole(string role)
         {
-            return !EXCLUDED_PERFORMER_ROLES.Contains(role);
+            return !EXCLUDED_PERFORMER_ROLES.Any(o => o == role);
         }
     }
 }
