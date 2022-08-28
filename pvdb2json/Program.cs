@@ -197,7 +197,7 @@ namespace pvdb2json
 
                             break;
 
-                        case var chara when Regex.IsMatch(chara, "performer.(.+).type"):
+                        case var role when Regex.IsMatch(role, "performer.(.+).type"):
                             if (performer != null)
                             {
                                 if (ValidatePerformerRole(value))
