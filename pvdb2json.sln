@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pvdb2json", "pvdb2json\pvdb2json.csproj", "{D1991F10-FA88-4AA1-AD12-C9B4D5EB1842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1991F10-FA88-4AA1-AD12-C9B4D5EB1842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1991F10-FA88-4AA1-AD12-C9B4D5EB1842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1991F10-FA88-4AA1-AD12-C9B4D5EB1842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1991F10-FA88-4AA1-AD12-C9B4D5EB1842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CCF2F72-AB7B-465B-AD77-D39D5A8492C5}
+	EndGlobalSection
+EndGlobal
