@@ -28,7 +28,7 @@ namespace pvdb2json
 
             // Options
             var fileOption = new Option<FileInfo?>(
-                name: "--input",
+                aliases: new string[] { "--input", "-i" },
                 description: "The pv_db.txt file to be converted to json.",
                 isDefault: true,
                 parseArgument: result =>
@@ -56,7 +56,7 @@ namespace pvdb2json
             );
 
             var typeOption = new Option<int>(
-                name: "--type",
+                aliases: new string[] { "--type", "-t" },
                 description: "The identifier type of converted entries.",
                 getDefaultValue: () => 0
             );
