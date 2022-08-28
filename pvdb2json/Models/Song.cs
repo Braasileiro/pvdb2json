@@ -23,14 +23,9 @@
         public Song(int id, int type)
         {
             this.id = id;
-            this.album = null;
             this.type = type;
-            this.bpm = null;
-            this.date = null;
-            this.reading = null;
             this.jp = new SongInfo();
             this.en = new SongInfo();
-            this.performers = null;
         }
     }
 }

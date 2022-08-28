@@ -11,14 +11,5 @@
         public string? lyrics { get; set; }
 
         public string? music { get; set; }
-
-        public SongInfo()
-        {
-            this.name = null;
-            this.arranger = null;
-            this.illustrator = null;
-            this.lyrics = null;
-            this.music = null;
-        }
     }
 }
