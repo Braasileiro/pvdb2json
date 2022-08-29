@@ -10,8 +10,8 @@ It's a modern .NET console project.
 pvdb2json [options]
 
 Options:
-  --input <input>  The pv_db.txt file to be converted to json.
-  --type <type>    The identifier type of converted entries. [default: 0]
-  --version        Show version information
-  -?, -h, --help   Show help and usage information
+  -i, --input <input>  The pv_db.txt file to be converted to json. []
+  -t, --type <type>    The identifier type of converted entries. [default: 0]
+  --version            Show version information
+  -?, -h, --help       Show help and usage information
 ```
